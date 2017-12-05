@@ -1,3 +1,4 @@
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
@@ -23,8 +24,12 @@ public class Main {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
-
+        DBConnection conn = new DBConnection();
+        try {
+            conn.estConnection();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
 
 
     }
