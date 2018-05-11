@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainViewController">
+   <children>
+      <FlowPane prefHeight="400.0" prefWidth="264.0" />
+      <Label layoutX="402.0" layoutY="14.0" prefHeight="22.0" prefWidth="139.0" text="Artikeldatenbank">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Pane layoutX="372.0" layoutY="41.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <ChoiceBox prefWidth="150.0"  />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
